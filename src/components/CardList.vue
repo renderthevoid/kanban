@@ -41,6 +41,7 @@
   import { ref, inject } from 'vue';
   import CardItem from './CardItem.vue';
   import CardForm from './CardForm.vue';
+import ListPanel from './ListPanel.vue';
 
   const firstList = inject('firstList');
   const secondList = inject('secondList');

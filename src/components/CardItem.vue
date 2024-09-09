@@ -38,6 +38,7 @@
     </v-tooltip>
     <v-tooltip text="Удалить товар">
       <template v-slot:activator="{ props }">
+        
         <v-btn
           v-bind="props"
           icon="mdi-delete"
